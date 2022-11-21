@@ -1,0 +1,22 @@
+{
+    "name": "fallfoundry/toc-generator",
+    "require": {
+        "symfony/dom-crawler": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fallfoundry\\TocGenerator\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Toc Generator",
+            "description": "Toc Generator addon"
+        },
+        "laravel": {
+            "providers": [
+                "Fallfoundry\\TocGenerator\\ServiceProvider"
+            ]
+        }
+    }
+}
